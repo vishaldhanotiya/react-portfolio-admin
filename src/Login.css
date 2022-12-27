@@ -1,0 +1,56 @@
+.background-image {
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	justify-content: center;
+	background-attachment: fixed;
+	background-image: url("./res/laptop_person.png");
+	width: 100%;
+	height: 56rem;
+}
+
+.login-container {
+	position: absolute;
+	width: 26rem;
+	height: 28rem;
+	padding-inline: 2rem;
+	border-radius: 1rem;
+	margin: 12rem;
+	box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+.title {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: left;
+	align-items: center;
+}
+.email-image {
+	background-position: right;
+	background-size: contain;
+	width: 2rem;
+	height: 2rem;
+}
+.email-input {
+	height: 3rem;
+	width: 350px;
+	padding-left: 40px;
+	margin-block: 0.8rem;
+	box-sizing: border-box;
+	border: 1px solid;
+	box-shadow: 0 0 2px #d8dae2;
+	border-color: #d8dae2;
+	border-radius: 0.4rem;
+}
+.password-image {
+	position: absolute;
+	left: 130px;
+	top: 180px;
+
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("./res/avatar.png");
+	width: 2rem;
+	height: 2rem;
+}
