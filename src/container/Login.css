@@ -1,23 +1,45 @@
+.main-div {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .background-image {
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
 	justify-content: center;
 	background-attachment: fixed;
-	background-image: url("./res/laptop_person.png");
+	background-image: url("./../res/laptop_person.png");
 	width: 100%;
 	height: 56rem;
 }
-
+.image-icon {
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-block: 1.2rem;
+	margin-inline: 0.5rem;
+	position: absolute;
+}
 .login-container {
 	position: absolute;
-	width: 26rem;
-	height: 28rem;
+	width: 24rem;
+	height: 25rem;
 	padding-inline: 2rem;
 	border-radius: 1rem;
 	margin: 12rem;
 	box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.2);
 	background-color: white;
+}
+.btn-login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	height: 3rem;
+	color: white;
+	align-content: center;
+	background-color: #1683af;
 }
 .title {
 	font-size: 2rem;
@@ -25,15 +47,9 @@
 	text-align: left;
 	align-items: center;
 }
-.email-image {
-	background-position: right;
-	background-size: contain;
-	width: 2rem;
-	height: 2rem;
-}
-.email-input {
+.input {
 	height: 3rem;
-	width: 350px;
+	width: 100%;
 	padding-left: 40px;
 	margin-block: 0.8rem;
 	box-sizing: border-box;
@@ -41,16 +57,4 @@
 	box-shadow: 0 0 2px #d8dae2;
 	border-color: #d8dae2;
 	border-radius: 0.4rem;
-}
-.password-image {
-	position: absolute;
-	left: 130px;
-	top: 180px;
-
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url("./res/avatar.png");
-	width: 2rem;
-	height: 2rem;
 }
