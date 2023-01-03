@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = () => {
 	const navigation = useNavigate();
-	const [hideSideBar, setHideSideBar] = useState(false);
+	const [hideSideBar, setHideSideBar] = useState(true);
 
 	return (
 		<div>
