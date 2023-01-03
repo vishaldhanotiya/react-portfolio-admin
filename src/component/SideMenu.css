@@ -1,0 +1,48 @@
+.main-div {
+	background-color: #040b14;
+	height: 100%;
+	overflow: hidden;
+	width: 300px;
+	position: fixed;
+}
+
+.profile-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.menu-item {
+	padding-inline: 3rem;
+	padding-block: 1rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.name {
+	color: white;
+	margin-block: 1rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.menu-icons {
+	width: 2rem;
+	height: 2rem;
+}
+.menu-text {
+	color: white;
+	margin-inline: 1rem;
+	font-weight: 500;
+}
+.image-icons {
+	width: 6rem;
+	height: 6rem;
+	object-fit: cover;
+	border-radius: 6rem;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #2d2f3f;
+}

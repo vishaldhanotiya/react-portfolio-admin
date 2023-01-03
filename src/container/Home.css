@@ -1,0 +1,13 @@
+.nav-bar {
+	display: flex;
+	align-items: center;
+	color: white;
+	height: 3rem;
+	padding-inline: 2rem;
+	background-color: black;
+}
+
+.home-div {
+	margin-left: 18.7rem;
+	background-color: red;
+}
