@@ -6,26 +6,26 @@ import NavSideMenu from "./NavSideMenu.tsx";
 import "./MainScreen.css";
 
 const MainScreen = () => {
-	const [hideSideBar, setHideSideBar] = useState(true);
+  const [hideSideBar, setHideSideBar] = useState(true);
 
-	return (
-		<div>
-			<div
-				className="nav-bar"
-				onClick={() => {
-					setHideSideBar(!hideSideBar);
-				}}
-			>
-				{hideSideBar ? (
-					<AiOutlineClose size={30} color={"#fff"} />
-				) : (
-					<GiHamburgerMenu size={30} color={"#fff"} />
-				)}
-			</div>
-			<SideMenu />
+  return (
+    <div>
+      <div
+        className="nav-bar"
+        onClick={() => {
+          setHideSideBar(!hideSideBar);
+        }}
+      >
+        {hideSideBar ? (
+          <AiOutlineClose size={30} color={"#fff"} />
+        ) : (
+          <GiHamburgerMenu size={30} color={"#fff"} />
+        )}
+      </div>
+      {hideSideBar && <SideMenu />}
 
-			<NavSideMenu />
-		</div>
-	);
+      <NavSideMenu />
+    </div>
+  );
 };
 export default MainScreen;
