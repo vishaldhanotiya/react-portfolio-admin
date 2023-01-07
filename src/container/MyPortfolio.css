@@ -1,0 +1,19 @@
+.portfolio-div {
+	margin-left: 18.7rem;
+	padding: 5rem;
+}
+
+.add-btn-1 {
+	display: flex;
+	justify-content: flex-end;
+}
+.add-detail-btn-1 {
+	background-color: #1683af;
+	color: white;
+	width: 7rem;
+	border-radius: 0.5rem;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,17 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import About from "./container/About.tsx";
-import Home from "./container/Home.tsx";
+import { Route, Outlet, Routes } from "react-router-dom";
 import Login from "./container/Login.tsx";
+import MainScreen from "./container/MainScreen.tsx";
 
 function App() {
 	return (
-		<div>
+		<>
 			<Routes>
+				<Route path="mainScreen" element={<MainScreen />} />
 				<Route path="/" element={<Login />} />
-				<Route path="home" element={<Home />} />
-				<Route path="about" element={<About />} />
 			</Routes>
-		</div>
+		</>
 	);
 }
 

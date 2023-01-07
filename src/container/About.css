@@ -1,12 +1,12 @@
-.home-div {
+.about-div {
 	margin-left: 18.7rem;
 	padding: 5rem;
 }
-.title-text {
+.about-title-text {
 	font-weight: 600;
 	font-size: 1.2rem;
 }
-.background-image-div {
+.profile-image-div {
 	display: flex;
 	padding: 2rem;
 	flex-direction: column;
@@ -14,7 +14,7 @@
 	align-items: center;
 	border-color: black;
 }
-.background-image-border {
+.profile-image-border {
 	border-style: dashed;
 	border-width: 2px;
 	width: 50rem;
@@ -37,7 +37,7 @@
 	margin-top: 2rem;
 }
 
-.input-home {
+.input-about {
 	height: 3rem;
 	width: 100%;
 	padding-left: 10px;

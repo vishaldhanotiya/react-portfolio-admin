@@ -9,6 +9,7 @@ import {
 	FaPhone,
 	FaRegFileArchive,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SideMenu = () => {
 	const [hideSideBar, setHideSideBar] = useState(false);
@@ -27,23 +28,28 @@ const SideMenu = () => {
 				/>
 				<span className="name">VISHAL DHANOTIYA</span>
 			</div>
-			<div className="menu-item">
-				<FaHome size={23} color={"white"} />
-				<span className="menu-text">Home</span>
-			</div>
-			<div className="menu-item">
-				<FaUser size={23} color={"white"} />
-				<div className="menu-text">About me</div>
-			</div>
+			<Link to="/">
+				<div className="menu-item">
+					<FaHome size={23} color={"white"} />
+					<span className="menu-text">Home</span>
+				</div>
+			</Link>
+			<Link to="about">
+				<div className="menu-item">
+					<FaUser size={23} color={"white"} />
+					<div className="menu-text">About me</div>
+				</div>
+			</Link>
 			<div className="menu-item">
 				<FaLaptop size={23} color={"white"} />
-
 				<span className="menu-text">What I do</span>
 			</div>
-			<div className="menu-item">
-				<FaRegFileArchive size={23} color={"white"} />
-				<span className="menu-text">My Portfolio</span>
-			</div>
+			<Link to="/portfolio">
+				<div className="menu-item">
+					<FaRegFileArchive size={23} color={"white"} />
+					<span className="menu-text">My Portfolio</span>
+				</div>
+			</Link>
 			<div className="menu-item">
 				<FaPen size={23} color={"white"} />
 				<span className="menu-text">Testimonial's</span>

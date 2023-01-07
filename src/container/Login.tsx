@@ -7,11 +7,11 @@ export default function Login() {
 	const navigation = useNavigate();
 
 	const handleLoginClick = () => {
-		navigation("Home", { replace: true });
+		navigation("mainScreen", { replace: true });
 	};
 
 	return (
-		<div className="main-div">
+		<div className="main-div-1">
 			<div className="login-container">
 				<p className="title">LOGIN</p>
 				<div>
